@@ -9,18 +9,30 @@ namespace WebApi.Controllers {
 
   public class UsersController : ControllerBase {
     private readonly ICreateUserService _createUserService;
+    private readonly IGetAllUsersService _getAllUsersService;
 
-    public UsersController(ICreateUserService createUserService){
+    public UsersController(
+      ICreateUserService createUserService,
+      IGetAllUsersService getAllUsersService
+    ){
       _createUserService = createUserService;
+      _getAllUsersService = getAllUsersService;
     }
 
+    [HttpGet]
+    public async Task<IActionResult> GetAll()
+    {
+      var users = await _getAllUsersService.Execute();
+      return users;
+    }   
+
     [HttpPost]
-    public IActionResult Create([FromBody] CreateUserInput createUserInput){
+    public Task<IActionResult> Create([FromBody] CreateUserInput createUserInput){
       var user = new User(Guid.NewGuid(), createUserInput.Name, createUserInput.Email);
 
-      _createUserService.Execute(user);
+      var response = _createUserService.Execute(user);
 
-      return Created("", user);
+      return response;
     }
   }
 }

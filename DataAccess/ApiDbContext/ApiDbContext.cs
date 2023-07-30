@@ -3,12 +3,14 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DataAccess.ApiDbContext
 {
-    public class ApiDbContext : DbContext
+    public class ApiDbContextPostgres : DbContext
     {
-        public ApiDbContext(DbContextOptions<ApiDbContext> options) : base(options)
+        public ApiDbContextPostgres(DbContextOptions<ApiDbContextPostgres> options) : base(options)
         {
         }
 
         public DbSet<User> Users { get; set; }
+
+        public DbSet<Car> Cars { get; set; }
     }
 }

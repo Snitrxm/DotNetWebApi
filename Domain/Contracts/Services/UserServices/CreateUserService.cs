@@ -1,7 +1,8 @@
 using Domain.Entities;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Domain.Contracts.Services.UserServices {
   public interface ICreateUserService {
-    void Execute(User user);
+    Task<IActionResult> Execute(User user);
   }
 }

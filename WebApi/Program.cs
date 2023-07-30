@@ -1,21 +1,21 @@
-using Domain.Contracts.Services.UserServices;
 using Microsoft.EntityFrameworkCore;
-using Application.Services.User;
 using DataAccess.ApiDbContext;
+using WebApi.Configuration;
+using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddControllers();
+builder.Services.AddControllers()
+    .AddJsonOptions(x => x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.RegisterServices();
+builder.Services.RegisterRepositories();
 
-builder.Services.AddScoped<ICreateUserService, CreateUserService>();
-
-builder.Services.AddDbContext<ApiDbContext>(options => options.UseInMemoryDatabase("ApiDb"));
+builder.Services.AddDbContext<ApiDbContextPostgres>(options => options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

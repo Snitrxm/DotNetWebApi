@@ -1,20 +1,29 @@
-using DataAccess.ApiDbContext;
+using Domain.Contracts.Repositories;
 using Domain.Contracts.Services.UserServices;
+using Microsoft.AspNetCore.Mvc;
+
 
 namespace Application.Services.User {
   public class CreateUserService : ICreateUserService
   {
-    private readonly ApiDbContext _apiDbContext;
+    private readonly IUsersRepository _usersRepository;
 
-    public CreateUserService(ApiDbContext apiDbContext){
-      _apiDbContext = apiDbContext;
+    public CreateUserService(IUsersRepository usersRepository){
+      _usersRepository = usersRepository;
     }
 
 
-    public async void Execute(Domain.Entities.User user)
+    public async Task<IActionResult> Execute(Domain.Entities.User user)
     {
-      await _apiDbContext.Users.AddAsync(user);
-      await _apiDbContext.SaveChangesAsync();
+      var alreadyExist = _usersRepository.FindByEmail(user.Email);
+
+      if (alreadyExist != null){
+        return new BadRequestObjectResult("User Already Exist.");
+      }
+
+      await _usersRepository.Create(user);
+
+      return new OkObjectResult(user);
     }
   }
 }

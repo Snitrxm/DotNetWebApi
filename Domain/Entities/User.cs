@@ -14,5 +14,7 @@ namespace Domain.Entities {
     public string Name { get; set; } = string.Empty;
 
     public string Email { get; set; } = string.Empty;
+
+    public List<Car> Cars { get; set; } = new List<Car>();
   }
 }

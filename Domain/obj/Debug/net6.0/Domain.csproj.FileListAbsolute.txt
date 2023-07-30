@@ -10,3 +10,18 @@
 /home/andre/Desktop/New Folder 2/Domain/obj/Debug/net6.0/Domain.dll
 /home/andre/Desktop/New Folder 2/Domain/obj/Debug/net6.0/ref/Domain.dll
 /home/andre/Desktop/New Folder 2/Domain/obj/Debug/net6.0/Domain.pdb
+/home/andre/Desktop/c#/Domain/bin/Debug/net6.0/Domain.deps.json
+/home/andre/Desktop/c#/Domain/bin/Debug/net6.0/Domain.dll
+/home/andre/Desktop/c#/Domain/bin/Debug/net6.0/ref/Domain.dll
+/home/andre/Desktop/c#/Domain/bin/Debug/net6.0/Domain.pdb
+/home/andre/Desktop/c#/Domain/obj/Debug/net6.0/Domain.csproj.AssemblyReference.cache
+/home/andre/Desktop/c#/Domain/obj/Debug/net6.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/andre/Desktop/c#/Domain/obj/Debug/net6.0/Domain.AssemblyInfoInputs.cache
+/home/andre/Desktop/c#/Domain/obj/Debug/net6.0/Domain.AssemblyInfo.cs
+/home/andre/Desktop/c#/Domain/obj/Debug/net6.0/Domain.csproj.CoreCompileInputs.cache
+/home/andre/Desktop/c#/Domain/obj/Debug/net6.0/Domain.dll
+/home/andre/Desktop/c#/Domain/obj/Debug/net6.0/ref/Domain.dll
+/home/andre/Desktop/c#/Domain/obj/Debug/net6.0/Domain.pdb
+/home/andre/Desktop/c#/Domain/bin/Debug/net6.0/Shared.dll
+/home/andre/Desktop/c#/Domain/bin/Debug/net6.0/Shared.pdb
+/home/andre/Desktop/c#/Domain/obj/Debug/net6.0/Domain.csproj.CopyComplete
