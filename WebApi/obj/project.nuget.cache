@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "qkM0YgJdvImpNMccW2zeqdJOqgVLZJDH+eLrNUlT7Bi7mEfYwwluCoGUAU1VsHWCDb0moadQvysHnEYE8vnSKQ==",
+  "dgSpecHash": "GEnpxQZkHc562R76XmYiTDxmc787QQUV24CPVGGmrzjU4zAZh/TNDhwxe6VD3r8emVSuVzITYx2VkuBRVNoH6g==",
   "success": true,
   "projectFilePath": "/home/andre/Desktop/c#/WebApi/WebApi.csproj",
   "expectedPackageFiles": [
+    "/home/andre/.nuget/packages/fluentvalidation/11.5.1/fluentvalidation.11.5.1.nupkg.sha512",
+    "/home/andre/.nuget/packages/fluentvalidation.aspnetcore/11.3.0/fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "/home/andre/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.5.1/fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "/home/andre/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/home/andre/.nuget/packages/microsoft.aspnetcore.antiforgery/2.2.0/microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "/home/andre/.nuget/packages/microsoft.aspnetcore.authentication.abstractions/2.2.0/microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

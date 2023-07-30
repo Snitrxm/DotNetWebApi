@@ -10,7 +10,12 @@
       "request": "launch",
       "preLaunchTask": "build",
       "program": "${workspaceFolder}/WebApi/bin/Debug/net6.0/WebApi.dll",
-      "args": [],
+      "args": [
+        "watch",
+        "--project",
+        ".",
+        "--verbose"
+      ],
       "cwd": "${workspaceFolder}/WebApi",
       "stopAtEntry": false,
       "serverReadyAction": {

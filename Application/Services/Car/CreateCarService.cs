@@ -15,7 +15,8 @@ namespace Application.Services.Car {
 
     public async Task<IActionResult> Create(Domain.Entities.Car car)
     {
-      var user = _usersRepository.FindById(car.UserId);
+      var user = await _usersRepository.FindById(car.UserId);
+      Console.WriteLine(user);
 
       if(user == null){
         return new BadRequestObjectResult("User does not exist.");

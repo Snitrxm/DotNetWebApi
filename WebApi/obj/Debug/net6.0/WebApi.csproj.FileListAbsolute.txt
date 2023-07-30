@@ -118,3 +118,6 @@
 /home/andre/Desktop/c#/WebApi/bin/Debug/net6.0/runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll
 /home/andre/Desktop/c#/WebApi/bin/Debug/net6.0/Shared.dll
 /home/andre/Desktop/c#/WebApi/bin/Debug/net6.0/Shared.pdb
+/home/andre/Desktop/c#/WebApi/bin/Debug/net6.0/FluentValidation.dll
+/home/andre/Desktop/c#/WebApi/bin/Debug/net6.0/FluentValidation.AspNetCore.dll
+/home/andre/Desktop/c#/WebApi/bin/Debug/net6.0/FluentValidation.DependencyInjectionExtensions.dll

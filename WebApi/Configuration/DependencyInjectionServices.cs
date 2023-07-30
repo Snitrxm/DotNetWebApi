@@ -9,6 +9,7 @@ namespace WebApi.Configuration {
       services.AddScoped<ICreateUserService, CreateUserService>();
       services.AddScoped<ICreateCarService, CreateCarService>();
       services.AddScoped<IGetAllUsersService, GetAllUsersService>();
+      services.AddScoped<IGetUserService, GetUserService>();
     } 
   }
 }

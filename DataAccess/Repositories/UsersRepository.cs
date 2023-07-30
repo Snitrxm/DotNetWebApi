@@ -31,9 +31,9 @@ namespace DataAccess.Repositories {
       return user;
     }
 
-    public User? FindById(Guid id)
+    public async Task<User>? FindById(Guid id)
     {
-      var user = _apiDbContext.Users.Where(u => u.Id == id).FirstOrDefault();
+      var user = await _apiDbContext.Users.Where(u => u.Id == id).Include(u => u.Cars).FirstOrDefaultAsync();
       return user;
     }
   }

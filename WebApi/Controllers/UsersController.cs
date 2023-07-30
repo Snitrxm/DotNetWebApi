@@ -11,12 +11,17 @@ namespace WebApi.Controllers {
     private readonly ICreateUserService _createUserService;
     private readonly IGetAllUsersService _getAllUsersService;
 
+    private readonly IGetUserService _getUserService;
+
     public UsersController(
       ICreateUserService createUserService,
-      IGetAllUsersService getAllUsersService
+      IGetAllUsersService getAllUsersService,
+      IGetUserService getUserService
+
     ){
       _createUserService = createUserService;
       _getAllUsersService = getAllUsersService;
+      _getUserService = getUserService;
     }
 
     [HttpGet]
@@ -24,6 +29,13 @@ namespace WebApi.Controllers {
     {
       var users = await _getAllUsersService.Execute();
       return users;
+    }
+
+    [HttpGet]
+    [Route("{id:guid}")]
+    public IActionResult GetUser([FromRoute] Guid id){
+      var user = _getUserService.Execute(id);
+      return user;
     }   
 
     [HttpPost]
