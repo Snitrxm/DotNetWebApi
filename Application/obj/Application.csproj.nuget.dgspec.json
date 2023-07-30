@@ -1,0 +1,193 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/andre/Desktop/New Folder 2/Application/Application.csproj": {}
+  },
+  "projects": {
+    "/home/andre/Desktop/New Folder 2/Application/Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/andre/Desktop/New Folder 2/Application/Application.csproj",
+        "projectName": "Application",
+        "projectPath": "/home/andre/Desktop/New Folder 2/Application/Application.csproj",
+        "packagesPath": "/home/andre/.nuget/packages/",
+        "outputPath": "/home/andre/Desktop/New Folder 2/Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/andre/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/andre/Desktop/New Folder 2/DataAccess/DataAccess.csproj": {
+                "projectPath": "/home/andre/Desktop/New Folder 2/DataAccess/DataAccess.csproj"
+              },
+              "/home/andre/Desktop/New Folder 2/Domain/Domain.csproj": {
+                "projectPath": "/home/andre/Desktop/New Folder 2/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.120/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/andre/Desktop/New Folder 2/DataAccess/DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/andre/Desktop/New Folder 2/DataAccess/DataAccess.csproj",
+        "projectName": "DataAccess",
+        "projectPath": "/home/andre/Desktop/New Folder 2/DataAccess/DataAccess.csproj",
+        "packagesPath": "/home/andre/.nuget/packages/",
+        "outputPath": "/home/andre/Desktop/New Folder 2/DataAccess/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/andre/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/andre/Desktop/New Folder 2/Domain/Domain.csproj": {
+                "projectPath": "/home/andre/Desktop/New Folder 2/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.120/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/andre/Desktop/New Folder 2/Domain/Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/andre/Desktop/New Folder 2/Domain/Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "/home/andre/Desktop/New Folder 2/Domain/Domain.csproj",
+        "packagesPath": "/home/andre/.nuget/packages/",
+        "outputPath": "/home/andre/Desktop/New Folder 2/Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/andre/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.120/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+/home/andre/Desktop/New Folder 2/Application/bin/Debug/net6.0/Application.deps.json
+/home/andre/Desktop/New Folder 2/Application/bin/Debug/net6.0/Application.dll
+/home/andre/Desktop/New Folder 2/Application/bin/Debug/net6.0/ref/Application.dll
+/home/andre/Desktop/New Folder 2/Application/bin/Debug/net6.0/Application.pdb
+/home/andre/Desktop/New Folder 2/Application/bin/Debug/net6.0/DataAccess.dll
+/home/andre/Desktop/New Folder 2/Application/bin/Debug/net6.0/Domain.dll
+/home/andre/Desktop/New Folder 2/Application/bin/Debug/net6.0/DataAccess.pdb
+/home/andre/Desktop/New Folder 2/Application/bin/Debug/net6.0/Domain.pdb
+/home/andre/Desktop/New Folder 2/Application/obj/Debug/net6.0/Application.csproj.AssemblyReference.cache
+/home/andre/Desktop/New Folder 2/Application/obj/Debug/net6.0/Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/andre/Desktop/New Folder 2/Application/obj/Debug/net6.0/Application.AssemblyInfoInputs.cache
+/home/andre/Desktop/New Folder 2/Application/obj/Debug/net6.0/Application.AssemblyInfo.cs
+/home/andre/Desktop/New Folder 2/Application/obj/Debug/net6.0/Application.csproj.CoreCompileInputs.cache
+/home/andre/Desktop/New Folder 2/Application/obj/Debug/net6.0/Application.csproj.CopyComplete
+/home/andre/Desktop/New Folder 2/Application/obj/Debug/net6.0/Application.dll
+/home/andre/Desktop/New Folder 2/Application/obj/Debug/net6.0/ref/Application.dll
+/home/andre/Desktop/New Folder 2/Application/obj/Debug/net6.0/Application.pdb

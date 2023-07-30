@@ -1,0 +1,15 @@
+/home/andre/Desktop/New Folder 2/DataAccess/bin/Debug/net6.0/DataAccess.deps.json
+/home/andre/Desktop/New Folder 2/DataAccess/bin/Debug/net6.0/DataAccess.dll
+/home/andre/Desktop/New Folder 2/DataAccess/bin/Debug/net6.0/ref/DataAccess.dll
+/home/andre/Desktop/New Folder 2/DataAccess/bin/Debug/net6.0/DataAccess.pdb
+/home/andre/Desktop/New Folder 2/DataAccess/bin/Debug/net6.0/Domain.dll
+/home/andre/Desktop/New Folder 2/DataAccess/bin/Debug/net6.0/Domain.pdb
+/home/andre/Desktop/New Folder 2/DataAccess/obj/Debug/net6.0/DataAccess.csproj.AssemblyReference.cache
+/home/andre/Desktop/New Folder 2/DataAccess/obj/Debug/net6.0/DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+/home/andre/Desktop/New Folder 2/DataAccess/obj/Debug/net6.0/DataAccess.AssemblyInfoInputs.cache
+/home/andre/Desktop/New Folder 2/DataAccess/obj/Debug/net6.0/DataAccess.AssemblyInfo.cs
+/home/andre/Desktop/New Folder 2/DataAccess/obj/Debug/net6.0/DataAccess.csproj.CoreCompileInputs.cache
+/home/andre/Desktop/New Folder 2/DataAccess/obj/Debug/net6.0/DataAccess.csproj.CopyComplete
+/home/andre/Desktop/New Folder 2/DataAccess/obj/Debug/net6.0/DataAccess.dll
+/home/andre/Desktop/New Folder 2/DataAccess/obj/Debug/net6.0/ref/DataAccess.dll
+/home/andre/Desktop/New Folder 2/DataAccess/obj/Debug/net6.0/DataAccess.pdb
